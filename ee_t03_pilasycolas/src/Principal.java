@@ -66,10 +66,7 @@ public class Principal {
   2
   1
 SALIDA: 
-  3
-  2
-  1
-  1
+  1231
 */
 
 
