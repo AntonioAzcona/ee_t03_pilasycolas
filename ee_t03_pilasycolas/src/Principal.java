@@ -21,11 +21,12 @@ public class Principal {
          BufferedReader br = new BufferedReader(fr);
          String renglon = br.readLine();
          String cadena = "";
+         System.out.println("Entrada: ");
          while(renglon != null){
             cadena += renglon;
+            System.out.println(renglon);
             renglon = br.readLine();
          }
-         System.out.println("Entrada: " + cadena);
          System.out.println("Salida: ");
          for(int i = 0; i < cadena.length(); i++){
              //if(cadena.charAt(0) == '0')
