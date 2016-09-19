@@ -31,7 +31,7 @@ public class PilaGenerica<T> {
         else
             aux.setSiguiente(inicio);
             inicio = aux;
-        System.out.println(aux);
+        //System.out.println(aux);
     }
     public T pop()
     {
