@@ -45,7 +45,7 @@ public class Principal {
                      }
                  }else if(cadena.charAt(i) == '1')
                      {
-                         p.pop();
+                         System.out.println(p.pop());
                      }else if(cadena.charAt(i) == '2')
                      {
                          p.peek();
