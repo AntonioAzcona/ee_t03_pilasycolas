@@ -31,7 +31,7 @@ public class PilaGenerica<T> {
         else
             aux.setSiguiente(inicio);
             inicio = aux;
-        //System.out.println(aux);
+        //System.out.println(aux.getDato());
     }
     public T pop()
     {
@@ -47,7 +47,7 @@ public class PilaGenerica<T> {
         T resultado = null;
         if(inicio != null){
             resultado = aux.getDato();
-            System.out.println("El ultimo elemento de la pila es: " + resultado);
+            System.out.println(resultado);
         }
         return resultado;
     }
