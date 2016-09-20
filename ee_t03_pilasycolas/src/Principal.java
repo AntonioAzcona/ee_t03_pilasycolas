@@ -5,8 +5,11 @@
  */
 
 /**
- *
- * @author Antonio
+ * @author AZCONA GONZÁLEZ JOSÉ ANTONIO
+ * Materia: Estructura de Datos
+ * Docente: Lic. León Felipe Villavicencio Fernandez
+ * Hora: 10:00 - 11:00
+ * Nombre del trabajo: ee_t03_pilasycolas (Tarea03) 
  */
 import java.io.*;
 import javax.swing.*;
@@ -77,7 +80,7 @@ public class Principal {
 }
     // C:\\Users\\Antonio\\Documents\\TEC\\5° Semestre\\Estructura de Datos Leon\\ee_t03_pilasycolas\\datos.txt
 //ENTRADA:
-/*
+/*PILA    COLA
   0       1      
   01      01
   02      02 
@@ -87,6 +90,7 @@ public class Principal {
   2       1
   1
 SALIDA: 
+ PILA     COLA
   3       1
   2       2
   1       3
