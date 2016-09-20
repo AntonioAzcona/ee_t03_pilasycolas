@@ -13,6 +13,7 @@ public class Main {
     {
         Principal p = new Principal();
         p.leerArchivo();/*PilaGenerica<Integer> p = new PilaGenerica<Integer>();
+        
         p.push(5);
         p.push(8);
         p.push(10);
@@ -24,3 +25,4 @@ public class Main {
         System.out.println("\nEsta es la primera palabra de la cola: " + c.frenteCola());*/
     }
 }
+
