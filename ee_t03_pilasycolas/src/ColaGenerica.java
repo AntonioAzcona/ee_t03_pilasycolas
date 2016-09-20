@@ -25,7 +25,7 @@ public class ColaGenerica<T> {
             fin.setSiguiente(aux);
         }
         fin = aux;
-        System.out.print(aux);
+        //System.out.print(aux);
     }
     public T eliminarCola() throws Exception
     {
