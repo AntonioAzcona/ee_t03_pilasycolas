@@ -36,52 +36,7 @@ public class Principal {
          }else if(cadena.charAt(0) == '1'){
              metodoCola();
          }
-         /*for(int i = 0; i < cadena.length(); i++){
-             if(cadena.charAt(0) == '0')
-             { 
-                 if(cadena.charAt(i) == '0')
-                 {
-                     if(cadena.charAt(i) == '0')
-                     {
-                      i++;//Aumenta
-                       if(cadena.charAt(i) == '0'){
-                          i++;
-                          p.push(cadena.charAt(i));
-                          //l.insertaInicio(cadena.charAt(i));
-                       }else{
-                          p.push(cadena.charAt(i));
-                          //l.insertaInicio(cadena.charAt(i));
-                       }
-                     }
-                 }else if(cadena.charAt(i) == '1')
-                     {
-                         System.out.println(p.pop());
-                         //l.eliminaUltimo();
-                     }else if(cadena.charAt(i) == '2')
-                     {
-                         p.peek();
-                         //l.getInicio();
-                     }
-             }else if(cadena.charAt(0) == '1'){
-                 if(cadena.charAt(i) == '0')
-                 {
-                     if(cadena.charAt(i) == '1')
-                     {
-                         i++;
-                       if(cadena.charAt(i) == '0'){
-                            i++;
-                          c.insertarCola(cadena.charAt(i));
-                       }else{
-                          c.insertarCola(cadena.charAt(i));
-                       }
-                     }
-                 }else if(cadena.charAt(i) == '1')
-                     {
-                         i++;
-                         //c.eliminarCola();
-                     }
-             }
-         }*/
+         
     }
    public void metodoPila()
    {
